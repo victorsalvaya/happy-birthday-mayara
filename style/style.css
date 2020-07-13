@@ -99,7 +99,7 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .idea-5 span,
@@ -118,7 +118,7 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 300px;
   height: auto;
 }
 
@@ -241,17 +241,24 @@ body {
 
 @media screen and (max-height: 800px) {
   .six .hat {
+    position: absolute;
+    width: 48px;
+    top: 10px;
+    left: 41.5%;
+  }
+  
+  .six .hat {
     left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 39%;
   }
 }
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+@media screen and (max-height: 850px) and (max-width: 414px) {
   .six .hat {
     left: 32%;
   }
@@ -271,19 +278,14 @@ body {
     bottom: -38px;
   }
 
-  .idea-5 span {
-    display: block;
-  }
-
   .idea-6 span {
     font-size: 10rem;
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 39px;
+    top: 23px;
   }
-
   .wish-hbd {
     font-size: 2.2em;
   }
